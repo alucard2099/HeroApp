@@ -12,7 +12,7 @@ export const Hero = () => {
         return <Navigate to={'/Marvel'} />
     }
 
-    const heroImageUrl = `/assets/${id}.jpg`
+    const heroImageUrl = `HeroApp/assets/${id}.jpg`
     const navigate = useNavigate('/')
 
     return (
